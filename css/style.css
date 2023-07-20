@@ -1,0 +1,175 @@
+h1
+{
+    color:rgb(15, 15, 15);
+}
+
+body
+{
+    background-color: rgb(231, 234, 238);
+}
+
+a
+{
+    text-decoration:none;;
+    padding-right: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18pt;
+}
+
+table,td,tr,th
+     {border: 1px solid black;
+      border-collapse: collapse;
+     }
+
+table
+     {
+       width: 600px;
+     }
+
+th
+     {
+      background-color: black;
+      color: aliceblue
+
+     }
+           
+tr
+     {
+      background-color: honeydew;
+     }
+
+tr:nth-child(odd)
+     {
+      background-color: rgb(237, 206, 211);
+     }
+
+tr:hover
+     {
+      background-color: rgb(237, 206, 211);
+     }
+
+     .title-word {
+        animation: color-animation 4s linear infinite;
+      }
+      
+      .title-word-1 {
+        --color-1: #4f86c5;
+        --color-2: #a8b87e;
+        --color-3: #423e3e;
+      }
+      
+      .title-word-2 {
+        --color-1: #515050;
+        --color-2: #5f555f;
+        --color-3: #3c3c3c;
+      }
+      
+      .title-word-3 {
+        --color-1: rgb(114, 185, 120);
+        --color-2: #bef59a;
+        --color-3: #146268;
+      }
+      
+      .title-word-4 {
+        --color-1: #c20505;
+        --color-2: #b39898;
+        --color-3: #000000;
+      }
+      
+      @keyframes color-animation {
+        0%    {color: var(--color-1)}
+        32%   {color: var(--color-1)}
+        33%   {color: var(--color-2)}
+        65%   {color: var(--color-2)}
+        66%   {color: var(--color-3)}
+        99%   {color: var(--color-3)}
+        100%  {color: var(--color-1)}
+      }
+      .lineUp 
+  {
+    animation: 2s anim-lineUp ease-out infinite;
+  }
+ @keyframes anim-lineUp 
+{
+     0% {
+     opacity: 0;
+     transform: translateY(80%);
+   }
+   20% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+     transform: translateY(0%);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0%);
+   }
+ }
+      /* Here are just some visual styles. 🖌 */
+      
+      .container {
+        display: grid;
+        place-items: center;  
+        text-align: center;
+        height: 100vh
+      }
+      .title {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 760;
+        font-size: 5.5vw;
+        text-transform: uppercase;
+      }
+.col header.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8a6f6f;  
+    padding: 0px 0px 20px 30px  
+}
+.col .contents{
+    padding: 0px 30px;
+    border-left: 2px solid #bababa;
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+    
+     
+      
+
+        
